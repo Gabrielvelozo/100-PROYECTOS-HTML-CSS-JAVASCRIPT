@@ -1,0 +1,69 @@
+:root {
+  --c1: #1c140d;
+  --c2: #f2e9e1;
+  --c3: #fe40b9;
+  --c4: #fff;
+  --c5: #cbe86b;
+  --fuente: sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: var(--fuente);
+  box-sizing: border-box;
+  background-color: var(--c1);
+}
+.container {
+  width: min(90%, 120rem);
+  margin: 0 auto;
+}
+.cronometro {
+  width: 35rem;
+  height: 20rem;
+  margin: 15rem auto 0 auto;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 1rem;
+  color: var(--c5);
+}
+
+.display {
+  font-size: 10rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: var(--c2);
+}
+.controles {
+  width: 100%;
+  max-width: 40rem;
+  display: flex;
+  gap: 1.5rem;
+}
+.btn {
+  width: 100%;
+  padding: 1rem;
+  text-transform: uppercase;
+  border-radius: 0.8rem;
+  border: none;
+  cursor: pointer;
+  background-color: var(--c5);
+  color: var(--c4);
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+.iniciar:hover {
+  background-color: var(--c4);
+  color: var(--c1);
+  border: 1px solid var(--c4);
+}
+.parar:hover {
+  background-color: var(--c1);
+  color: #cbe86b;
+  border: 1px solid var(--c5);
+}
