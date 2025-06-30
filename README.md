@@ -10,4 +10,4 @@ CURSO DE VICTOR-ROBLES
 
 `addEventListener('click)`, `setInterval()`, `clearInterval()`
 
-![alt text](image-1.png)
+![alt text](./CONTADOR/image-1.png 'Cronometro')
